@@ -1,7 +1,7 @@
 ### 변수
-Bool
-Int     부호 있는 정수
-Uint    부호 없는 정수
+Bool 
+Int     부호 있는 정수 
+Uint    부호 없는 정수 
 Address (지갑)주소
 Array   배열
 String  문자열
