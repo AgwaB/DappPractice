@@ -22,7 +22,7 @@ contract payment{
         if(msg.sender == withdrawl){
             withdrawl.transfer(this.balance);
         } else if(msg.sender == deposit && now > start + 1 seconds){
-            selfdestruct(deposit);
+            selfdestruct(deposit); 
         }
     }
 }
