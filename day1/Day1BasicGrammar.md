@@ -21,7 +21,11 @@ Mapping 매핑
 
 public
 
-private
+private : internal과 유사. 하지만 상속된 contract에서 접근 불가
+
+external : 해당 함수는 contract 밖에서만 호출될 수 있다. 
+
+internal : 내부적으로만 접근 가능
 
 public payable : payable은 public일 때만 지정 가능. 호출하는 주소의 잔고에 변화가 생기는 함수는 필수적으로 payable function으로 선언하게 강제
 
@@ -44,7 +48,9 @@ mapping : key-value 형식 (ex> mapping(address => uint) A : A[_주소] = 100 �
 
 require : assert 같은 예외처리 구문
 
-Storage : 블록체인 상에 영구적으로 저장되는 변수
+View : write, modify, delete 하지 않고 오직 read 할 때에만 쓴다. 가스비가 들지 않는다.
+
+Storage : 블록체인 상에 영구적으로 저장되는 변수 (가스비가 든다.)
 
 Memory : 임시적으로 저장되는 변수 (외부 호출이 일어나면 수명을 다한다.)
 
