@@ -1,3 +1,10 @@
+## 출처
++ 서울대학교 도시 데이터사이언스 연구소 강의 참고
++ 원본 : http://solidity.readthedocs.io/en/v0.4.24/solidity-by-example.html
+
+## 공부내용
+
+
 ### 변수
 
 Bool 
