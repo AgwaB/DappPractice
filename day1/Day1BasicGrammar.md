@@ -43,3 +43,10 @@ selfdestruct(주소 수신자) : 현재 계약을 파기하고 지정된 주소�
 mapping : key-value 형식 (ex> mapping(address => uint) A : A[_주소] = 100 이면 _주소에 해당하는 곳에 100을 넣음)
 
 require : assert 같은 예외처리 구문
+
+Storage : 블록체인 상에 영구적으로 저장되는 변수
+
+Memory : 임시적으로 저장되는 변수 (외부 호출이 일어나면 수명을 다한다.)
+
+함수 외부에 선언된 변수는 default로 Storage, 함수 내부에 선언된 변수는 memory로 선언된다.
+
